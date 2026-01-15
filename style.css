@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #8ec9f3;
+}
+
+.fb-container {
+  width: 240px;
+  margin: 60px auto;
+  background-color: white;
+  border-radius: 6px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.cover-photo {
+  height: 70px;
+  background-color: #5566f2;
+}
+
+.profile-section {
+  padding: 15px;
+}
+
+.profile-pic img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-top: -40px;
+  object-fit: cover;
+}
+
+.profile-section h2 {
+  font-size: 14px;
+  margin: 8px 0 4px;
+}
+
+.bio {
+  font-size: 11px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+#btn {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  font-size: 11px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: #27ae60;
+}
+
+
